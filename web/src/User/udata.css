@@ -1,0 +1,101 @@
+/* General styling */
+body {
+  font-family: sans-serif;
+  margin: 40px;
+}
+
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px; /* Increase margin to create space */
+  color: rgb(8, 4, 14);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #9e2222;
+}
+/* Styles for a smaller button */
+.small-button {
+  padding: 6px 10px; /* Adjust the padding to decrease/increase the button size */
+  font-size: 12px; /* Adjust the font size */
+  width: auto; /* Set a specific width or use 'auto' */
+  height: auto; /* Set a specific height or use 'auto' */
+  margin: 0 auto;
+  
+}
+/* Styles for a smaller button aligned at the center */
+.small-centered-button {
+  padding: 6px 10px; /* Adjust the padding to decrease/increase the button size */
+  font-size: 20px; /* Adjust the font size */
+  width: auto; /* Set a specific width or use 'auto' */
+  height: auto; /* Set a specific height or use 'auto' */
+  display: block; /* Change button display to block to use text-align */
+  margin: 0 auto; /* Auto margin horizontally centers the button */
+  
+}
+/* Styles for a smaller input button aligned at the center */
+.small-centered-input-button {
+  width: 50%; /* Set a specific width for the input box */
+  height: 30px; /* Set a specific height for the input box */
+  padding: 5px; /* Adjust padding for spacing inside the input box */
+  font-size: 25px; /* Adjust the font size of the input text */
+  box-align: center;/* Add any other desired styles */
+}
+
+
+/* Modal styling */
+/* Modal styling */
+
+.input-group1 {
+  margin-bottom: 15px;
+  width: 50%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+/* Modal styling */
+.modal-content {
+  background-color: #fff;
+  border: 1px solid #da4646;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.image-preview-container {
+  text-align: center;
+}
+
+.image-preview-container img {
+  width: auto;
+  max-height: 90vh; /* Adjust the maximum height for the image */
+  margin-bottom: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.empty-line {
+  height: 20px; /* Adjust the height as needed */
+  width: 100%; /* Set the width to 100% to span the entire container if necessary */
+  /* Add any other styling you want, such as background color or borders */
+}
+.empty-button {
+  height: 7px; /* Adjust the height as needed */
+  width: 50%; /* Set the width to 100% to span the entire container if necessary */
+  /* Add any other styling you want, such as background color or borders */
+}

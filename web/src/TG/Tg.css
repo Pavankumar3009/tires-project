@@ -1,0 +1,90 @@
+/* tg.css */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column; /* Adjust the direction to place h1 on top */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Updated styles for h1 */
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px; /* Increase margin to create space */
+  color: rgb(8, 4, 14);
+  text-align: center;
+  font-weight: bold;
+}
+
+.card1 {
+  width: 400px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Adjust the margin to create space between h1 and card1 */
+}
+
+.card1 input {
+  border: 2px solid #4b2ce3; /* Dark red border */
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #000;
+}
+
+.file-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.file-label {
+  background: #1d3aca; /* Dark red background */
+  color: #fff;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#input-file {
+  display: none;
+}
+
+#btn {
+  display: block;
+  width: 200px;
+  background: #352ce3; /* Dark red background */
+  color: #fff;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#btn:hover {
+  background-color: #2857c6; /* Darken the background on hover */
+}
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 10px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

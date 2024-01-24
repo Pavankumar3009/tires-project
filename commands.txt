@@ -1,0 +1,2 @@
+mongod --fork --logpath /var/log/mongodb/mongod.log
+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

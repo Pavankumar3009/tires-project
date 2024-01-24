@@ -1,0 +1,56 @@
+.about-container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #f9f7f7;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+ flex-direction: column;  /* Set flex direction to column for stacking */
+}
+
+.about-container h2 {
+  font-size: 3rem;
+  margin-bottom: 20px; /* Increase margin to create space */
+  color: rgb(8, 4, 14);
+  text-align: center;
+  font-weight: bold;
+}
+.about-container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(12, 10, 10);
+}
+
+.content {
+  display: flex;
+  flex-direction: row; /* Set flex direction to row for text and image */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.text {
+  flex: 1;
+  font-size: 1.5rem;
+}
+
+.text p {
+  color: rgb(12, 10, 10);
+  font-size: 1.5rem;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align image to the right */
+  align-items: center;
+}
+
+.tire-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
